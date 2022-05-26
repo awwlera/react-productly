@@ -1,0 +1,55 @@
+@import '../index';
+
+.bm-burger-button {
+    position: fixed;
+    width: 35px;
+    height: 25px;
+    right: 20px;
+    top: 35px;
+
+    @include breakpoint-mf('lg') {
+        display: none;
+    }
+}
+  
+.bm-burger-bars {
+    background: $orange;
+}
+  
+.bm-cross-button {
+    height: 24px;
+    width: 24px;
+}
+  
+.bm-cross {
+    background: $black;
+}
+  
+.bm-menu {
+    background: $white;
+    font-size: 18px;
+}
+  
+.bm-item-list {
+    padding: 20px 0;
+}
+  
+.bm-item {
+    display: block;
+    color: $black;
+    padding: 15px 0;
+
+    &:hover {
+        color: orange;
+    }
+}
+
+.btn {
+    color: $white;
+    text-align: center;
+    margin-bottom: 15px;
+
+    &:hover {
+        color: $black;
+    }
+}

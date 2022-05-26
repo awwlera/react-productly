@@ -1,0 +1,56 @@
+.header {
+
+    padding: 35px 0 47px;
+
+    .container {
+        @include breakpoint-mf('lg') {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+
+    .nav-holder {
+        display: none;
+
+        @include breakpoint-mf('lg') {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+    }
+
+    .nav-list {
+        @include breakpoint-mf('lg') {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            margin-right: 23px;
+        }
+    }
+
+    .nav-item {
+        @include breakpoint-mf('lg') {
+            padding: 0 15px;
+        }
+    }
+
+    .nav-link {
+        @include breakpoint-mf('lg') {
+            font-size: 14px;
+            font-weight: 400;
+        }
+
+    }
+
+    .btn {
+        @include breakpoint-mf('lg') {
+            padding: 11px 25px;
+            margin: 0 7px;
+        }
+    }
+}
